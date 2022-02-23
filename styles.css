@@ -1,4 +1,17 @@
+.fondop{
+    background-image: url("https://www.ginx.tv/uploads2/League_of_Legends/Esports/Worlds2022Host_main.webp");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
 
+body{
+    background-image: url("https://boosteria.org/wp-content/uploads/worlds-2014.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 a.nav-link:hover{
     background-color: grey;
