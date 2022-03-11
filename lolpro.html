@@ -10,12 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>LoL Esports</h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="historia.html">Historia</a>
-            <a href="lolpro.html">LoL Competitivo</a>
-            <a href="extras.html">Extras</a>
+        <div class="main">
+            <div class="main-container">
+                <div class="img-container">
+                    <img src="https://i.blogs.es/bf5ad0/league-of-legends-destacada/1366_521.jpeg" alt="" id="main-img">
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="./index.html" id="navbar-logo"><img src="https://nexus.leagueoflegends.com/wp-content/uploads/2019/04/LOL_CMS_276_Tile_01-Feature_H30-V50-min_48rnijegoxln4h3wc45n-1200x630.jpg" alt="Logo" id="img-logo"></a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-links">Inicio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="historia.html" class="navbar-links">historia</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="lolpro.html" class="navbar-links">LoL Competitivo</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="extras.html" class="navbar-links">Extras</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -240,8 +264,44 @@
     </section>
 
     <footer>
-        IJGL Productions. 2022 Derechos reservados.
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-link-wrapper">
+                    <div class="footer-links-items">
+                        <h3>Ingresa tu nombre de invocador para ver tus estadísticas</h3>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Usuario">
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Buscar">
+                        </div>
+                    </div>
+                    <div class="footer-links-items">
+                        <h3>Navegación</h3>
+                        <ul>
+                            <p><a href="index.html">Inicio</a></p>
+                            <p><a href="historia.html">Historia</a></p>
+                            <p><a href="lolpro.html">LoL Competitivo</a></p>
+                            <p><a href="extras.html">Extras</a></p>
+                        </ul>
+                    </div>
+                    <div class="footer-links-items">
+                        <h3>Sé una leyenda</h3>
+                        <ul>
+                            <img src="https://news.cgtn.com/news/2021-11-21/Riot-Games-accidentally-leaks-host-cities-for-Worlds-2022-15nlDCTAjEQ/img/3ebf79c5066748939a7526a622145906/3ebf79c5066748939a7526a622145906.png" alt="summoners-cup" id="summ-cup">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pie">
+            <div class="pie-wrap">
+                <p>Desarrollado por IJGL Productions</p>
+                <p class="website-right">©2022 League of Legends. Todos los derechos reservados</p>
+            </div>
+        </div>
     </footer>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
